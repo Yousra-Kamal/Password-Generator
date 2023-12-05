@@ -2,7 +2,7 @@
 
 ## Description
 
-Password Generator is an application you can use to generate a random password based on the user's chosen length and character types.
+Password Generator is an application used to generate a random password based on the user's chosen length and character types.
 
 ## Technologies Used:
 
@@ -12,7 +12,7 @@ Password Generator is an application you can use to generate a random password b
 
 ## How to Use
 
-The user is prompted to choose a password length between 8-128 characters. If the length chosen is below 8 or above 128 characters, or is not a number then the user is asked to try again. When the desired length is chosen, the user will be asked to confirm if they would like to include certain Characters (e.g. uppercase letters, lowercase letters, numbers, and/or special characters). If no character types are chosen The user will be asked to try again. Finally, after all confirmation is done, a random password will be generated on the page.
+The user is prompted to choose a password length between 8-128 characters. If the length chosen is below 8 or above 128 characters, or is not a number then the user is asked to try again. When the desired length is chosen, the user will be asked to confirm if user would like to include certain characters (e.g. uppercase letters, lowercase letters, numbers, and/or special characters). If no character types are chosen, the user will be asked to try again. Finally, after all confirmation is done, a random password will be generated on the page.
 
 ## Completed Tasks
 
@@ -24,13 +24,13 @@ The user is prompted to choose a password length between 8-128 characters. If th
 
 ## Links
 
-- [The URL of the deployed website :arrow_right:]()
+- [The URL of the deployed website :arrow_right:](https://password-generator-yousra.vercel.app/)
 
 ## Screenshots
 
-The following is a screenshot of the final website view after deployment.
+The following is a screenshot of the website after choosing a password of 50 characters and all character types confirmed.
 
-![alt text](/assets/images/Screenshot.png)
+![alt text](/assets/images/Screenshot.jpg)
 
 ## Installation
 

@@ -114,11 +114,15 @@ function promptsOutput() {
     )
   );
 
-  if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
+  if (
+    Number.isNaN(passwordLength) ||
+    passwordLength < 8 ||
+    passwordLength > 128
+  ) {
     alert(
-      "Error⚠️  \nCharacter length has to be a number, (Pick between 8 - 128). \nPlease try again😊"
+      "\nError⚠️  \nCharacter length has to be a number, (Pick between 8 - 128). \nPlease try again😊"
     );
-    return false;
+    return null;
   }
 
   var hasLowerCase = confirm(
@@ -145,15 +149,11 @@ function promptsOutput() {
   if (hasNumbers) {
     finalArr = finalArr.concat(numberArr);
   }
-  if (hasSpecialCharacters) {
-  } else if (hasNumbers) {
-  } else if (hasLowerCase) {
-  } else if (hasUpperCase) {
-  } else {
+  if (!hasSpecialCharacters && !hasNumbers && !hasLowerCase && !hasUpperCase) {
     alert(
       "You must select at least one character type. 😥 \n\nPlease try again"
     );
-    return false;
+    return null;
   }
   return true;
 }
